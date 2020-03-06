@@ -1,0 +1,20 @@
+pipeline {
+libraries{
+lib 'shlibb'
+}
+
+ agent any
+   tools{
+        maven "Maven"
+    }
+    stages
+    {
+   stage('git commit')
+    {
+    steps
+    {
+    def result=Github_Commit(jsondata)
+    score(result)
+    }
+   }
+   }
