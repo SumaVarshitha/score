@@ -13,12 +13,12 @@ lib 'shlibb'
     {
     steps
     {
-    //print "bhavya"
-
-    //var result=
-    Github_Commit(jsondata)
-   // print "bhavya"
-    //score(jsondata,result)
+    script{
+    
+    String result=Github_Commit(jsondata)
+    print "bhavya"
+    score(jsondata,result)
+    }
     }
    }
    }
