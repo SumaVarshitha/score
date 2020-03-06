@@ -13,7 +13,7 @@ lib 'shlibb'
     {
     steps
     {
-    def result=Github_Commit(jsondata)
+    var result=Github_Commit(jsondata)
     score(jsondata,result)
     }
    }
