@@ -14,7 +14,7 @@ lib 'shlibb'
     steps
     {
     var result=Github_Commit(jsondata)
-    print $(result)
+    echo result
     score(jsondata,result)
     }
    }
