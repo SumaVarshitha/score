@@ -16,7 +16,7 @@ lib 'shlibb'
     script{
     
     String result=Github_Commit(jsondata)
-    String pull=gitpullrequest(jsondata)
+    int pull=gitpullrequest(jsondata)
    // print result
     Score(jsondata,result,pull)
     }
