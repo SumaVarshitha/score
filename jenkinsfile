@@ -17,7 +17,7 @@ lib 'shlibb'
     
     String result=Github_Commit(jsondata)
     print "bhavya"
-    score(jsondata,result)
+    Score(jsondata,result)
     }
     }
    }
