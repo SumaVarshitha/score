@@ -13,8 +13,9 @@ lib 'shlibb'
     {
     steps
     {
+     echo bhavya
     var result=Github_Commit(jsondata)
-    echo "bhavya"
+    echo bhavya
     score(jsondata,result)
     }
    }
